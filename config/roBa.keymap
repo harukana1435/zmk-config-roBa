@@ -75,10 +75,12 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         scroll_up_down: scroll_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
     };
@@ -88,10 +90,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R           &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F           &kp G        &kp LS(LG(S))       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMI
-&kp Z             &kp X         &kp C             &kp V           &kp B        &kp LEFT_SHIFT      &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LANGUAGE_2  &lt 4 SPACE  &kp TAB             &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E             &kp R         &kp T                                           &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F         &kp G        &kp LS(LG(S))       &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp Z             &kp X         &kp C             &kp V         &kp B        &kp LEFT_SHIFT      &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &lt 4 SPACE  &kp TAB             &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&scroll_up_down>;
