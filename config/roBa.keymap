@@ -83,6 +83,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <20>;
         };
     };
@@ -112,8 +113,8 @@
 
         NUM {
             bindings = <
-&kp F9            &kp F10       &kp F11           &kp F12       &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp N0
-&kp F5            &kp F6        &kp F7            &kp F8        &kp LEFT_BRACE        &kp LC(LA(KP_NUMBER_0))      &kp ESCAPE     &kp RIGHT_BRACE        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT
+&kp F9            &kp F10       &kp F11           &kp F12       &kp LEFT_PARENTHESIS                                              &kp RIGHT_PARENTHESIS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp F5            &kp F6        &kp F7            &kp F8        &kp LEFT_BRACE        &kp LC(LA(KP_NUMBER_0))      &kp ESCAPE     &kp RIGHT_BRACE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
 &kp F1            &kp F2        &kp F3            &kp F4        &kp LEFT_BRACKET      &kp LEFT_SHIFT               &kp BACKSLASH  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp GRAVE
 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &kp SPACE             &kp TAB                      &kp BACKSPACE  &trans                                                           &kp DELETE
             >;
