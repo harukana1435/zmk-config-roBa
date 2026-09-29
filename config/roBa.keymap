@@ -105,7 +105,7 @@
 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp CAPSLOCK  &lt 4 SPACE  &lt 3 TAB           &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
         };
 
         FUNCTION {
