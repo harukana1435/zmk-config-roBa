@@ -126,16 +126,14 @@
             >;
         };
 
-ARROW {
-    bindings = <
-&kp C_BRI_DN   &kp C_BRI_UP   &kp C_PREV      &kp C_PP               &kp C_NEXT                          &kp ESCAPE  &trans    &kp UP_ARROW    &trans     &trans
-&kp C_MUTE     &kp C_VOL_DN   &kp C_VOL_UP    &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans  &trans  &kp HOME  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
-&kp LG(SPACE)  &kp LG(TAB)    &kp LG(GRAVE)   &trans                 &trans                              &trans      &trans  &kp END   &trans    &trans          &trans     &trans
-&trans         &trans         &trans          &trans                 &trans                              &trans      &trans  &trans                                           &trans
-    >;
-
-    sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-};
+        ARROW {
+            bindings = <
+&kp C_BRI_DN   &kp C_BRI_UP  &kp C_PREV     &kp C_PP                           &kp C_NEXT                                                  &kp ESCAPE  &trans    &kp UP_ARROW    &trans     &trans
+&kp C_MUTE     &kp C_VOL_DN  &kp C_VOL_UP   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &trans      &trans  &kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &trans
+&kp LG(SPACE)  &kp LG(TAB)   &kp LG(GRAVE)  &trans                             &trans                                  &trans      &trans  &kp END     &trans    &trans          &trans     &trans
+&trans         &trans        &trans         &trans                             &trans                                  &trans      &trans  &trans                                           &trans
+            >;
+        };
 
         MOUSE {
             bindings = <
