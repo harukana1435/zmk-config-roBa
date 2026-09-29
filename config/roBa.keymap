@@ -19,6 +19,7 @@
 &trackball {
     scroll-layers = <5>;
     snipe-layers = <7>;
+    automouse-layer = <4>;
 
     // arrows {
     //     layers = <3>;
